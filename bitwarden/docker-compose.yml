@@ -4,7 +4,7 @@ services:
     image: bitwardenrs/server
     restart: always
     ports:
-      - 3400:80
+      - 3400:10001
     volumes:
       - ./volumes/bitwarden:/data
     environment:
